@@ -5,3 +5,7 @@ git commit -m "added testing files"
 rm testing.py
 git restore testing.py
 git add.
+git remote add origin
+git remote -v
+git remote set-url origin
+git push origin master
